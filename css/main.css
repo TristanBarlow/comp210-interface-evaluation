@@ -73,7 +73,7 @@ h2{
 }
 
 .main-container{
-  width:960px;
+  width:100%;
   background:#eee;
   margin: 30px auto;
   position: relative;

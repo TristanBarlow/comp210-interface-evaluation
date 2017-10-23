@@ -67,17 +67,18 @@ body, html{
   font-family: 'Roboto', sans-serif;
 }
 h1{
-  font-size: 2em;
+  font-size: 4em;
   padding:10px;
   font-weight:bold;
   color:red;
   text-align: center; 
 }
 h2 {
-    font-size: 1.4em;
+    font-size: 2.4em;
     padding: 4px;
     text-align: center;
-    color: blue;
+    color: black;
+    
 }
 
 .main-container {
@@ -90,7 +91,7 @@ h2 {
 }
 header {
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color:black;
     background-image: url("../images/banner.png");
     background-size: 100% 100%;
@@ -104,7 +105,7 @@ aside {
     height: 100%;
     position: fixed;
     background-color: black;
-    top: 150px;
+    top: 200px;
 }
 nav ul{
 
@@ -148,5 +149,9 @@ footer{
 banner {
     background-image: url("../images/banner.png");
     background-color: #cccccc;
+}
+imagewrapper {
+    background-image: url("../images/banner.png");
+    background-size: auto;
 }
 

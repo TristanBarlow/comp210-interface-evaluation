@@ -78,11 +78,12 @@ h1 {
     -webkit-box-shadow: 0px 0px 20px black;
 }
 h2 {
+    font-style: italic;
     font-size: 1.8vw;
     padding: 1.8vw;
     text-align: left;
     color: black;
-    
+    text-decoration: underline;
 }
 
 .main-container {
@@ -93,7 +94,9 @@ h2 {
     background-color: black;
     background-image: url("../images/background1.jpg");
     background-size: 100% 100%;
-
+    font-weight: bold;
+    color: black;
+    font-style: italic;
 }
 header {
     width: 100%;
@@ -104,9 +107,10 @@ header {
     -webkit-box-shadow: 0px 0px 20px blue;
 }
 mainText {
+    font-style:normal;
     width: 55%;
     height: 100%;
-    margin: 0.5vw;
+    margin: 0.8vw;
     font-size: 1.5vw;
     font-weight: bold;
     color: black;
@@ -116,6 +120,21 @@ mainText {
     box-shadow: 0px 0px 8px #ffffff;
     -webkit-box-shadow: 0px 0px 20px black;
 }
+mainTextc {
+    font-style: normal;
+    width: 80%;
+    height: 100%;
+    margin: 0.8vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0px 0px 8px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px black;
+}
+    }
 .content{
   width:100%;
   min-height:400px;
@@ -159,7 +178,6 @@ nav ul li a.selected {
         }
 section {
     width: 80%;
-    min-height: 300px;
     float: right;
     margin: 10px;
 }

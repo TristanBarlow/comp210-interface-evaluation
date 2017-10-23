@@ -1,10 +1,10 @@
 /**
- * @Author: Alcwyn Parker <alcwynparker>
+ * @Author: Tristan Barlow <tristanbarlow>
  * @Date:   2017-09-25T15:47:37+01:00
  * @Email:  alcwynparker@gmail.com
  * @Project: COMP210
  * @Filename: main.css
- * @Last modified by:   alcwynparker
+ * @Last modified by:  Tristan Barlow
  * @Last modified time: 2017-09-25T16:19:40+01:00
  */
  /* http://meyerweb.com/eric/tools/css/reset/
@@ -37,10 +37,13 @@
  footer, header, hgroup, menu, nav, section {
  	display: block;
  }
- body {
- 	line-height: 1;
+body {
+    line-height: 1;
+    overflow: auto;
+    overflow: initial;    
+    overflow-y: hidden;
 
- }
+}
  ol, ul {
  	list-style: none;
  }
@@ -67,72 +70,83 @@ h1{
   font-size: 2em;
   padding:10px;
   font-weight:bold;
+  color:red;
+  text-align: center; 
 }
 h2 {
     font-size: 1.4em;
     padding: 4px;
+    text-align: center;
+    color: blue;
 }
 
 .main-container {
     width: 100%;
-    margin: 30px auto;
+    height: 100%;
     position: relative;
     overflow: auto;
     padding-bottom: 80px;
+    background-color: black;
 }
-header{
-  width:100%;
-  height:100px;
-  background: #aaa;
+header {
+    width: 100%;
+    height: 150px;
+    background-color:black;
+    background-image: url("../images/banner.png");
+    background-size: 100% 100%;
 }
 .content{
   width:100%;
   min-height:400px;
 }
 aside {
-    width: 40%;
-    min-height: 300px;
-    float: above;
-    background: #00ffff;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    top: 150px;
 }
 nav ul{
-  margin:10px;
+
 }
 nav ul li{
-  margin:5px;
+
 }
-nav ul li a{
-  display:block;
-  width: 90%;
-  height:60px;
-  background-color: #ff00dc;
-  color: #000000;
-  line-height: 60px;
-  text-align: center;
-  text-decoration: none;
-}
+    nav ul li a {
+        margin-top: 15px;
+        width: 100%;
+        float:right;
+        font-size: 36px;
+        background-image: url("../images/button.png");
+        background-size: cover;
+        color: white;
+        text-align: center;
+    }
 nav ul li a.selected{
   text-decoration: underline;
-  background: #ff6a00;
+  background-color:blue;
 }
 nav ul li a:hover{
-  background: #ff6a00;
+  background-color: red;
 }
 section {
-    width: 65%;
+    width: 80%;
     min-height: 300px;
     background: #555;
     float: right;
     margin: 10px;
-    background-image: url("../images/battleScreens1.png");
-    background-color: #cccccc;
 }
 footer{
   clear: both;
   width:100%;
-  height:40px;
-  background: #bbb;
-  position: absolute;
-  bottom: 0px;
-  padding:5px;
+  height:5%;
+  background-color: black;
+  position: fixed;
+  top: 95%;
+
 }
+banner {
+    background-image: url("../images/banner.png");
+    background-color: #cccccc;
+}
+

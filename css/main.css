@@ -60,23 +60,27 @@ body {
  	border-spacing: 0;
  }
 
-body, html{
-  width:100%;
-  height:100%;
-  margin:0px;
-  font-family: 'Roboto', sans-serif;
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
-h1{
-  font-size: 4vw;
-  padding:10px;
-  font-weight:bold;
-  color:red;
-  text-align: center; 
+h1 {
+    font-size: 4vw;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow: 0px 0px 8px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px black;
 }
 h2 {
-    font-size: 2.4vw;
-    padding: 4px;
-    text-align: center;
+    font-size: 1.8vw;
+    padding: 1.8vw;
+    text-align: left;
     color: black;
     
 }
@@ -84,17 +88,33 @@ h2 {
 .main-container {
     width: 100%;
     height: 100%;
-    position: relative;
     overflow: auto;
     padding-bottom: 80px;
     background-color: black;
+    background-image: url("../images/background1.jpg");
+    background-size: 100% 100%;
+
 }
 header {
     width: 100%;
     height: 200px;
-    background-color:black;
     background-image: url("../images/banner.png");
     background-size: 100% 100%;
+    box-shadow: 0px 0px 8px red;
+    -webkit-box-shadow: 0px 0px 20px blue;
+}
+mainText {
+    width: 55%;
+    height: 100%;
+    margin: 0.5vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    float: left;
+    box-shadow: 0px 0px 8px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px black;
 }
 .content{
   width:100%;
@@ -104,8 +124,8 @@ aside {
     width: 18%;
     height: 100%;
     position: fixed;
-    background-color: black;
     top: 200px;
+
 }
 nav ul{
 
@@ -114,41 +134,61 @@ nav ul li{
 
 }
     nav ul li a {
+        padding: 4px;
         margin-top: 15px;
         width: 100%;
-        float:right;
+        float: right;
         font-size: 2.4vw;
         background-image: url("../images/button.png");
         background-size: cover;
         color: white;
         text-align: center;
+        box-shadow: 0px 0px 8px #ffffff;
+        -webkit-box-shadow: 0px 0px 20px black;
     }
-nav ul li a.selected{
-  text-decoration: underline;
-  background-color:blue;
-}
-nav ul li a:hover{
-  background-color: red;
-}
+nav ul li a.selected {
+            text-decoration: underline;
+            background-color: blue;
+            box-shadow: 0px 0px 8px blue;
+            -webkit-box-shadow: 0px 0px 20px blue;
+        }
+        nav ul li a:hover {
+            background-color: red;
+            box-shadow: 0px 0px 8px red;
+            -webkit-box-shadow: 0px 0px 20px red;
+        }
 section {
     width: 80%;
     min-height: 300px;
-    background: #555;
     float: right;
     margin: 10px;
 }
-footer{
-  clear: both;
-  width:100%;
-  height:5%;
-  background-color: black;
-  position: fixed;
-  top: 95%;
-
+subSection {
+    width:auto;
+    background-color: grey;
+    float: right;
+    margin: 10px;
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 5%;
+    color: blue;
+    font-size: 1vw;
+    padding: 1vw;
+    text-align: center;
+    color: blue;
+    background-color: grey;
+    position: fixed;
+    top: 95%;
+    box-shadow: 0px 0px 8px grey;
+    -webkit-box-shadow: 0px 0px 20px grey;
 }
 banner {
     background-image: url("../images/banner.png");
     background-color: #cccccc;
+    box-shadow: 0px 0px 8px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px black;
 }
 imagewrapper {
     background-image: url("../images/banner.png");

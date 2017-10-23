@@ -79,6 +79,7 @@ h1 {
 }
 h2 {
     font-style: italic;
+    font-weight: bold;
     font-size: 1.8vw;
     padding: 1.8vw;
     text-align: left;
@@ -112,7 +113,7 @@ mainText {
     height: 100%;
     margin: 0.8vw;
     font-size: 1.5vw;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     background-color: grey;
     text-align: center;
@@ -126,7 +127,7 @@ mainTextc {
     height: 100%;
     margin: 0.8vw;
     font-size: 1.5vw;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     background-color: grey;
     text-align: center;

@@ -121,6 +121,20 @@ mainText {
     box-shadow: 0px 0px 8px #ffffff;
     -webkit-box-shadow: 0px 0px 20px black;
 }
+mainTextr {
+    font-style: normal;
+    width: 35%;
+    height: 100%;
+    margin: 0.8vw;
+    font-size: 1.5vw;
+    font-weight: normal;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    float: right;
+    box-shadow: 0px 0px 8px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px black;
+}
 mainTextc {
     font-style: normal;
     width: 80%;

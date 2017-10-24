@@ -127,7 +127,7 @@ mainTextr {
     font-style: normal;
     text-align: justify;
     text-justify: inter-word;
-    width: 35%;
+    width: 30%;
     height: 100%;
     margin: 0.8vw;
     font-size: 1.5vw;
@@ -144,7 +144,7 @@ mainTextc {
     text-align: justify;
     text-justify: inter-word;
     padding: 20px;
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 0.8vw;
     font-size: 1.5vw;

@@ -201,6 +201,10 @@ section {
     width: 80%;
     float: right;
 }
+section2{
+    width: 100%;
+    height: auto;
+}
 subSection {
     width:auto;
     background-color: grey;
